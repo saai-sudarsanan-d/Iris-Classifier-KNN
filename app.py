@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 from PIL import Image
 
-model = open('C:/Users/saais/Desktop/Computer_programming/models/Iris_Classifier.pkl','rb')
+model = open('Iris_Classifier.pkl','rb')
 knn_fin = joblib.load(model)
 
 st.title('Iris Flower Classifier App')
